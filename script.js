@@ -70,6 +70,7 @@ function CreateNewCanvas(size)
 
         square.addEventListener("mousedown", (data) =>
         {
+            mouseDownID = data.button;
             paintSquare(square);
         });
     }
